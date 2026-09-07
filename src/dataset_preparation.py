@@ -154,8 +154,8 @@ if __name__ == "__main__":
     # print("Dataset preparation complete.")
 
     attach_coordinates_to_inputs(
-        source_npz_path="../data/mixer_64.npz",
-        coords_csv_path="../data/coordinates_64.csv",
-        output_npz_path="../data/mixer_64_with_coords.npz",
+        source_npz_path="./data/mixer_64.npz",
+        coords_csv_path="./data/coordinates_64.csv",
+        output_npz_path="./data/mixer_64_with_coords.npz",
         spatial_size=64,
     )
