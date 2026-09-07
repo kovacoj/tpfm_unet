@@ -8,3 +8,7 @@ padding: 1
 learning_rate: 3e-4
 use_tv_loss: True
 use_smoothing: True
+physics_loss_weight: 0.0
+dx: 0.002
+dy: 0.002
+fluid_threshold: 1e-6
